@@ -1,7 +1,17 @@
 2 Analysers:
+
+- first run "source install.sh"
+
 - Step1_Mean_RMS.py: runs over full dataset
-- Step2_Selection.py: selects muons
+
+- Step2_Selection.py: selects muons. Run iteratively and create new
+file in ./output/ folder with extension _0001 counting up each time it
+is run again. To reset, please delete all output files with extensions
+_000X.
 
 
-BadChannels2015.py:
-- list of bad channels that are removed when calculating sector means. typically ignored for sector information
+
+Additional Packages:
+
+- BadChannels2015.py: list of bad channels that are removed when calculating sector
+means. typically ignored for sector information
